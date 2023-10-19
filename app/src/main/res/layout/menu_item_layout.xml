@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/menuItemNameTextView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Plato"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:gravity="start"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/menuItemPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/decrementButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/decremento"
+        android:gravity="center" /><![CDATA[
+
+
+        />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/menuItemQuantityTextView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="0"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:background="@drawable/round_button_light"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/incrementButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/incremento"
+        android:gravity="center" />
+
+</LinearLayout>
